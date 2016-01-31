@@ -135,6 +135,7 @@ public class JogosFragment extends Fragment {
             AdView mAdView_tabela = (AdView) rootView.findViewById(R.id.adView);
             AdRequest adRequest_tabela = new AdRequest.Builder().build();
             mAdView_tabela.loadAd(adRequest_tabela);
+
         } else {
 
             rootView = inflater.inflate(R.layout.no_connection_tab, container, false);
@@ -248,7 +249,7 @@ public class JogosFragment extends Fragment {
         }
 
         if(dataformatada_last==null ){//&&estadio_last=="null"&&hora_last=="null"){
-            informacoes_current.setText("");
+            informacoes_last.setText("");
             versus_last.setText("");
         }
         else{
@@ -274,7 +275,7 @@ public class JogosFragment extends Fragment {
             placar2_next.setText(placar_oficial_visitante_next);
         }
         if(dataformatada_next==null  ){//&&estadio_next=="null"&&hora_next=="null"){
-            informacoes_current.setText("");
+            informacoes_next.setText("");
             versus_next.setText("");
         }
         else{

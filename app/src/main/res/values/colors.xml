@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <color name="bk_splash">#3894C3</color>
     <color name="colorPrimary">#3894C3</color>
     <color name="colorPrimaryDark">#296D8E</color>
     <color name="colorAccent">#296D8E</color>
     <color name="bk_header_tabela">#C4C4C4</color>
-
-
 </resources>

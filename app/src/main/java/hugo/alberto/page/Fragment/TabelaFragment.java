@@ -65,6 +65,9 @@ public class TabelaFragment extends Fragment {
         new GetTabela().execute();
         rootView =  inflater.inflate(R.layout.tabela_tab, container, false);
 
+            AdView mAdView_tabela = (AdView) rootView.findViewById(R.id.adView);
+            AdRequest adRequest_tabela = new AdRequest.Builder().build();
+            mAdView_tabela.loadAd(adRequest_tabela);
 
         tabelaList = new ArrayList<HashMap<String, String>>();
         lv = (ListView)rootView.findViewById(android.R.id.list);
@@ -85,9 +88,7 @@ public class TabelaFragment extends Fragment {
                 String saldo = ((TextView) view.findViewById(R.id.saldo)).getText().toString();
             }
         });
-            AdView mAdView_tabela = (AdView) rootView.findViewById(R.id.adView);
-            AdRequest adRequest_tabela = new AdRequest.Builder().build();
-            mAdView_tabela.loadAd(adRequest_tabela);
+
         } else {
             rootView = inflater.inflate(R.layout.no_connection_tab, container, false);
         }
