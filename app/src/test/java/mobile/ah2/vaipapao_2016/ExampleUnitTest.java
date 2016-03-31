@@ -1,4 +1,4 @@
-package hugo.alberto.page;
+package com.ah2.apps;
 
 import org.junit.Test;
 

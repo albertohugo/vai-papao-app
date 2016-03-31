@@ -5,11 +5,11 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "hugo.alberto.page"
+        applicationId "com.ah2.apps"
         minSdkVersion 16
         targetSdkVersion 23
-        versionCode 5
-        versionName "1.5"
+        versionCode 1
+        versionName "1.0"
     }
     buildTypes {
         release {

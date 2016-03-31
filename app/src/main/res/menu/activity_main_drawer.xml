@@ -8,8 +8,8 @@
             android:title="Classificação Brasileirão" />
         <item android:id="@+id/paraense" android:icon="@mipmap/ic_flag_black_48dp"
             android:title="Classificação Paraense" />
-        <item android:id="@+id/noticias" android:icon="@mipmap/ic_library_books_black_48dp"
-            android:title="Notícias" />
+       <!-- <item android:id="@+id/noticias" android:icon="@mipmap/ic_library_books_black_48dp"
+            android:title="Notícias" />-->
     </group>
 
     <item android:title="Opções">
